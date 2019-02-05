@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  outline: none; }
+
+body, html {
+  height: 100%;
+  position: relative; }
+
+#calculator {
+  width: 250px;
+  border: 1px solid #eee;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); }
+  #calculator #result-area {
+    height: 80px;
+    border: 1px solid #eee;
+    position: relative;
+    text-align: right; }
+    #calculator #result-area #equation {
+      font-size: 1.7em;
+      font-weight: 600;
+      padding: 5px 7px;
+      height: 50px; }
+    #calculator #result-area #answer {
+      font-size: 2em;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      padding: 6px;
+      font-weight: 900; }
+  #calculator #buttons {
+    padding: 0; }
+    #calculator #buttons button {
+      float: left;
+      width: calc(100% / 3);
+      height: calc(160px / 3);
+      border: 1px solid #eee;
+      font-size: 1.5em;
+      cursor: pointer; }
+      #calculator #buttons button:last-child {
+        width: calc(100% / 3 * 2);
+        background: #000;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
