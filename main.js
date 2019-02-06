@@ -6,8 +6,6 @@ document.querySelectorAll('#buttons button').forEach((button) => {
     e.preventDefault();
 
     const clicked = e.target.getAttribute('data-value');
-
-    console.log('======', equation.innerHTML);
       
     if (clicked === 'clear') {
       equation.innerHTML = 0;
